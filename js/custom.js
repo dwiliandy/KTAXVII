@@ -16,12 +16,12 @@
 
 
     // ABOUT SLIDER
-    $('body').vegas({
-        slides: [
-            { src: 'images/slide.jpg' }
-        ],
-        timer: false,
-        transition: [ 'zoomOut', ]
-    });
+    // $('body').vegas({
+    //     slides: [
+    //         { src: 'images/slide.jpg' }
+    //     ],
+    //     timer: false,
+    //     transition: [ 'zoomOut', ]
+    // });
 
 })(jQuery);
