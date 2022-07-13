@@ -24,7 +24,8 @@ https://templatemo.com/tm-521-get-ready
 
   <!-- MAIN CSS -->
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
 </head>
 
@@ -82,17 +83,66 @@ https://templatemo.com/tm-521-get-ready
   </section>
 
   <!-- Apa Itu KTA -->
-  <section id="detail_kta">
+  <section id="detail_kta" class="d-flex">
+    <div class="container d-flex">
+      <div class="row align-items-center">
+        <div class="col-md-12 text center">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center fw-bolder pt-4">Apa Itu Kamp Tahunan Alumni ?</h1>
+              <p class="text-center fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, distinctio
+                dolorem iusto
+                laborum libero id ex, consequuntur modi repellendus quae temporibus eveniet consequatur cum omnis voluptate
+                ducimus debitis quaerat quisquam, deleniti inventore aperiam enim. Nobis modi, porro distinctio ipsum
+                architecto
+                laborum accusantium saepe quam explicabo totam necessitatibus animi, aliquid provident.</p>
+            </div>
+          </div> 
+          <div class="row d-flex justify-content-around mt-5">
+            <div class="col-md-4">
+              <h2 class="fw-bolder text-center">Tujuan</h2>
+              <p class="text-center fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quisquam
+                inventore saepe quasi eius
+                obcaecati nobis aliquam, ad reiciendis dolores fugiat ab iure perspiciatis voluptatibus eveniet dolorum.
+                Recusandae, a debitis.</p>
+            </div>
+            <div class="col-md-4">
+              <h2 class="fw-bolder text-center">Sasaran</h2>
+              <p class="text-center fs-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi sequi
+                asperiores, ratione nesciunt sint
+                reprehenderit eaque aliquid vitae vel repellendus dolor doloremque quaerat itaque nulla tenetur minus
+                nemo,
+                maxime tempora.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Rundown -->
+  <section id="rundown" class="d-flex">
+
   </section>
   <!-- SCRIPTS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/vegas.min.js"></script>
   <script src="js/countdown.js"></script>
   <script src="js/init.js"></script>
   <script src="js/custom.js"></script>
-
+  <script>
+    $(document).on('wheel', function(e) {
+      e.preventDefault();
+      $('html, body').stop(true).animate({
+        scrollTop: (e.originalEvent.deltaY > 0 ? '+=' : '-=') + $(window).height() + 'px'
+      });
+    });
+  </script>
 </body>
 
 </html>
