@@ -9,13 +9,13 @@ body, html {
 
 
 #detail_kta{
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 #register{
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  min-width: 100vw;
   background: linear-gradient(to top right, #d2b48c, #000000);
 }
 
