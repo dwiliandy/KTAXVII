@@ -3,8 +3,7 @@ body {
   line-height: 1.7;
   color: gray;
   font-weight: 400;
-  font-size: 1rem;
-  background: #000; }
+  font-size: 1rem; }
 
 ::-moz-selection {
   background: #000;
@@ -83,7 +82,7 @@ h1, h2, h3, h4, h5,
     border: 2px solid #fff; }
     .btn.btn-outline-white:hover {
       background: #fff;
-      color: #e44985 !important; }
+      color: #c6913c !important; }
   .btn.btn-md {
     padding: 15px 30px;
     font-size: 12px;
@@ -135,7 +134,7 @@ h1, h2, h3, h4, h5,
     position: absolute;
     width: 100px;
     height: 3px;
-    background: #e44985; }
+    background: #c6913c; }
   .site-section-heading.text-center:after {
     content: "";
     -webkit-transform: translateX(-50%);
@@ -147,7 +146,7 @@ h1, h2, h3, h4, h5,
     position: absolute;
     width: 100px;
     height: 3px;
-    background: #e44985; }
+    background: #c6913c; }
 
 .border-top {
   border-top: 1px solid #edf0f5 !important; }

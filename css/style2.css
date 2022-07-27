@@ -1,0 +1,8 @@
+p{
+  font-size: 1.1rem;
+}
+
+#gallery{
+  min-height: calc(100vh - 120px);
+  background-color: rgb(228, 228, 228);
+}
