@@ -10,6 +10,18 @@ body{
   overflow-x: hidden;
 }
 
+.slick-next:before {
+  font-size: 30px;
+  color: black;
+  content: '→';
+}
+
+.slick-prev:before {
+  font-size: 30px;
+  color: black;
+  content: '←';
+}
+
 @media only screen and (min-width: 768px) {
   #gallery{
     min-height: calc(100vh - 120px);
