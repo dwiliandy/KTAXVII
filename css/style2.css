@@ -43,6 +43,10 @@ body{
   z-index: 999;
 }
 
+a{
+  text-decoration: none;
+}
+
 a:visited {
   color: inherit;
 }
@@ -54,7 +58,6 @@ a:visited {
 .back-to-top i{
   color: white;
 }
-
 
 @media only screen and (min-width: 768px) {
   #gallery{
