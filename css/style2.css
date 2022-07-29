@@ -22,6 +22,23 @@ body{
   content: '←';
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+  background-color: #702905;
+}
+
+.back-to-top:hover{
+  background-color: #1E0904 ;
+}
+
+.back-to-top i{
+  color: white;
+}
+
+
 @media only screen and (min-width: 768px) {
   #gallery{
     min-height: calc(100vh - 120px);
