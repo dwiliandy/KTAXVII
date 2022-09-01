@@ -55,6 +55,34 @@ a{
   color: white;
 }
 
+.float{
+	position:fixed;
+	width:90px;
+	height:75px;
+	bottom:40px;
+	right:40px;
+	background-color:#c6913c ;
+	color:#FFF;
+	border-radius:15px;
+	text-align:center;
+}
+
+.float p{
+  font-size: 20px;
+}
+
+.float:active{
+  background-color:#c6913c ;
+}
+
+.float:hover{
+  background-color: #e6b15c ;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
 @media only screen and (min-width: 768px) {
   #gallery{
     min-height: calc(100vh - 120px);
